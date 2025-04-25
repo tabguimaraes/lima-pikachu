@@ -64,3 +64,19 @@ main {
   top: -1100px;
   left: 950px;
 }
+
+.text {
+  width: 800px;
+  position: relative;
+  top: -1300px;
+  left: 70px;
+  color: var(--secundary-color);
+}
+
+.text h3 {
+  font-size: 6rem;
+}
+
+.text p {
+  font-size: 2rem;
+}
