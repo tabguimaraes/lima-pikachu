@@ -108,3 +108,11 @@ main {
 .button img {
   height: 50px;
 }
+
+footer {
+  position: relative;
+  top: 1100px;
+  left: 45%;
+  font-size: 2rem;
+  color: var(--secundary-color);
+}
