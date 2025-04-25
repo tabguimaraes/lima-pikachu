@@ -101,6 +101,10 @@ main {
   color: white;
 }
 
+.button:hover {
+  transform: scale(1.1);
+}
+
 .button img {
   height: 50px;
 }
