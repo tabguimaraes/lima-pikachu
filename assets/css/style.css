@@ -2,13 +2,12 @@
 
 :root {
   --primary-color: #f5cf06;
-  --secubdary-color: #8e4106;
+  --secundary-color: #8e4106;
   --font: Righteous;
   --primary-font-weight: 400;
   --primary-font-size: 4rem;
   --secundary-font-size: 1.2rem;
 }
-/* RESET DE ESTILOS */
 
 * {
   box-sizing: border-box;
@@ -34,12 +33,20 @@ body {
 
 h1 {
   position: relative;
-  top: 10vh;
+  top: 0;
   font-size: 700px;
   color: #ffffff33;
-  /* text-align: center; */
 }
 
 main {
   position: absolute;
+}
+
+.header {
+  padding: 70px 0 0 70px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 2rem;
+  color: var(--secundary-color);
 }
