@@ -33,9 +33,17 @@ body {
 
 h1 {
   position: relative;
-  top: 0;
+  top: -100px;
   font-size: 700px;
   color: #ffffff33;
+}
+
+h2 {
+  position: relative;
+  color: white;
+  font-size: 530px;
+  top: -650px;
+  left: 300px;
 }
 
 main {
