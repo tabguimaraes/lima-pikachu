@@ -61,7 +61,7 @@ main {
 }
 
 .header img:hover {
-  transform: rotateX(360deg);
+  transform: rotateX(300deg);
 }
 
 .pikachu {
