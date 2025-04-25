@@ -48,6 +48,7 @@ h2 {
 
 main {
   position: absolute;
+  height: 100vh;
 }
 
 .header {
