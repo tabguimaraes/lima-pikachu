@@ -59,6 +59,10 @@ main {
   color: var(--secundary-color);
 }
 
+.header img:hover {
+  transform: rotateX(360deg);
+}
+
 .pikachu {
   position: relative;
   top: -1100px;
@@ -79,4 +83,23 @@ main {
 
 .text p {
   font-size: 2rem;
+}
+
+.button {
+  position: relative;
+  display: flex;
+  width: 550px;
+  height: 200px;
+  background-color: var(--secundary-color);
+  top: -1520px;
+  left: 1660px;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  gap: 40px;
+  color: white;
+}
+
+.button img {
+  height: 50px;
 }
