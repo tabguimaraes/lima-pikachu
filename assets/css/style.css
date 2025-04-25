@@ -58,3 +58,9 @@ main {
   font-size: 2rem;
   color: var(--secundary-color);
 }
+
+.pikachu {
+  position: relative;
+  top: -1100px;
+  left: 950px;
+}
