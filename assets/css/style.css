@@ -124,3 +124,56 @@ footer {
   font-size: clamp(0.5rem, 2rem, 4rem);
   color: var(--secundary-color);
 }
+
+@media (max-width: 800px) {
+  .header {
+    width: 199;
+    height: 48;
+    top: 30px;
+    left: 30px;
+  }
+
+  h1 {
+    top: 3vh;
+    font-size: 13.8rem;
+  }
+
+  h2 {
+    top: 13vh;
+    font-size: 12.25rem;
+  }
+
+  .pikachu {
+    position: absolute;
+    top: 27vh;
+    left: 15vw;
+  }
+
+  .text {
+    width: 530px;
+    height: 154px;
+    position: absolute;
+    top: 76vh;
+    left: 7rem;
+    color: var(--secundary-color);
+    text-align: center;
+  }
+
+  .text h3 {
+    font-size: 4rem;
+  }
+
+  .text p {
+    font-size: 1.25rem;
+  }
+  .button {
+    width: 30vw;
+    height: 8rem;
+    top: 70vh;
+    left: 75.24rem;
+  }
+
+  footer {
+    display: none;
+  }
+}
