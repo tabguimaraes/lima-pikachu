@@ -33,17 +33,17 @@ body {
 
 h1 {
   position: absolute;
-  top: 2vh;
+  top: -2vh;
   left: 2vw;
-  font-size: clamp(10rem, 31.5rem, 32rem);
+  font-size: 26vw;
   color: #8f8d8d33;
 }
 
 h2 {
   position: absolute;
   top: 24vh;
-  left: 7.5vw;
-  font-size: clamp(5.25rem, 25.75rem, 37.25rem);
+  left: 12vw;
+  font-size: 20vw;
   color: white;
 }
 
@@ -53,11 +53,11 @@ header {
 }
 
 .header {
-  padding-left: 2.75rem;
+  padding-left: 3vw;
   display: flex;
   align-items: center;
   gap: 20px;
-  font-size: 2rem;
+  font-size: 3vw;
   color: var(--secundary-color);
   z-index: 100;
 }
@@ -72,38 +72,38 @@ header {
 
 .pikachu {
   position: absolute;
-  top: 34vh;
-  left: 31vw;
-  max-width: 35rem;
+  top: 30vh;
+  left: 33vw;
+  max-width: 30vw;
 }
 
 .text {
-  width: 36vw;
+  width: 29vw;
   position: absolute;
-  top: 64vh;
-  left: 3rem;
+  top: 68vh;
+  left: 11vw;
   color: var(--secundary-color);
 }
 
 .text h3 {
-  font-size: clamp(0.8rem, 5.1rem, 7rem);
+  font-size: 3.5vw;
 }
 
 .text p {
-  font-size: clamp(0.5rem, 1.5rem, 2rem);
+  font-size: 1.1vw;
 }
 
 .button {
   position: absolute;
+  top: 75vh;
+  left: 67vw;
   display: flex;
   width: 30vw;
-  height: 8rem;
+  height: 10vh;
   background-color: var(--secundary-color);
-  top: 70vh;
-  left: 75.24rem;
   align-items: center;
   justify-content: center;
-  font-size: clamp(1rem, 3rem, 5rem);
+  font-size: 3.5vw;
   gap: 1rem;
   color: white;
   transition: 0.3s;
@@ -119,109 +119,8 @@ header {
 
 footer {
   position: absolute;
-  top: 95vh;
-  left: 40vw;
-  font-size: clamp(0.5rem, 2rem, 4rem);
+  bottom: 1vh;
+  left: 39vw;
+  font-size: 2vw;
   color: var(--secundary-color);
-}
-
-@media (max-width: 800px) {
-  .header {
-    width: 199px;
-    height: 48px;
-    padding-top: 30px;
-    padding-left: 30px;
-  }
-
-  h1 {
-    top: 3vh;
-    font-size: 13.8rem;
-  }
-
-  h2 {
-    top: 13vh;
-    font-size: 12.25rem;
-  }
-
-  .pikachu {
-    position: absolute;
-    top: 27vh;
-    left: 15vw;
-  }
-
-  .text {
-    width: 530px;
-    height: 154px;
-    position: absolute;
-    top: 76vh;
-    left: 7rem;
-    color: var(--secundary-color);
-    text-align: center;
-  }
-
-  .text h3 {
-    font-size: 4rem;
-  }
-
-  .text p {
-    font-size: 1.25rem;
-  }
-  .button {
-    width: 30vw;
-    height: 8rem;
-    top: 70vh;
-    left: 75.24rem;
-  }
-
-  footer {
-    display: none;
-  }
-}
-
-@media (max-width: 360px) {
-  body {
-    width: 360px;
-    height: 640px;
-  }
-
-  h1 {
-    top: 9vh;
-    left: 0.5vw;
-    font-size: 96px;
-  }
-
-  h2 {
-    top: 16vh;
-    font-size: 81px;
-    left: 10vw;
-  }
-
-  .pikachu {
-    top: 25vh;
-    left: 4vw;
-    width: 338px;
-  }
-
-  .text h3 {
-    font-size: 40px;
-  }
-
-  .text p {
-    display: none;
-  }
-
-  .text {
-    width: 331px;
-    height: unset;
-    top: 73vh;
-    left: 4vw;
-  }
-
-  .button {
-    width: 244px;
-    height: 60px;
-    top: 85vh;
-    left: 16vw;
-    font-size: 38px;
-  }
 }
