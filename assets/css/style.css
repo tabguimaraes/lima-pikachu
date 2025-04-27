@@ -127,10 +127,10 @@ footer {
 
 @media (max-width: 800px) {
   .header {
-    width: 199;
-    height: 48;
-    top: 30px;
-    left: 30px;
+    width: 199px;
+    height: 48px;
+    padding-top: 30px;
+    padding-left: 30px;
   }
 
   h1 {
@@ -176,4 +176,39 @@ footer {
   footer {
     display: none;
   }
+}
+
+@media (max-width: 360px) {
+  h1 {
+    top: 7vh;
+    left: 0.5vw;
+    font-size: 100px;
+  }
+  h2 {
+    top: 15vh;
+    font-size: 80px;
+  }
+  .pikachu {
+    top: 24vh;
+    left: 1vw;
+    width: 333px;
+  }
+  .text h3 {
+    font-size: 40px;
+  }
+
+  .text p {
+    display: none;
+  }
+  .text {
+    width: 333px;
+    top: 71vh;
+    left: 5vw;
+  }
+  .button {
+    width: 312px;
+    height: 100px;
+    top: 79vh;
+    left: 8vw;
+}
 }
