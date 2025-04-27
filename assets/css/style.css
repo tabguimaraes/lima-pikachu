@@ -80,7 +80,7 @@ header {
 .text {
   width: 29vw;
   position: absolute;
-  top: 68vh;
+  bottom: 7vh;
   left: 11vw;
   color: var(--secundary-color);
 }
@@ -95,7 +95,7 @@ header {
 
 .button {
   position: absolute;
-  /* top: 75vh; */
+  bottom: 14vh;
   left: 67vw;
   display: flex;
   width: 30vw;
