@@ -95,7 +95,7 @@ header {
 
 .button {
   position: absolute;
-  top: 75vh;
+  /* top: 75vh; */
   left: 67vw;
   display: flex;
   width: 30vw;
@@ -123,4 +123,59 @@ footer {
   left: 39vw;
   font-size: 2vw;
   color: var(--secundary-color);
+}
+
+@media (max-width: 400px) {
+  header {
+    height: 8vh;
+  }
+
+  h1 {
+    font-size: 19.5vw;
+    top: 10vw;
+  }
+
+  h2 {
+    top: 11vh;
+    left: 6vw;
+    font-size: 17vw;
+  }
+
+  .header {
+    gap: 3vw;
+  }
+  .header img {
+    width: 9vw;
+  }
+
+  .header p {
+    font-size: 6vw;
+  }
+
+  .pikachu {
+    top: 18vh;
+    left: 4vw;
+    max-width: 70vw;
+  }
+
+  .text {
+    width: 67vw;
+    top: 54vh;
+    left: 5vw;
+  }
+
+  .text h3 {
+    font-size: 8vw;
+  }
+
+  .button {
+    left: 5.2vw;
+    bottom: 26vh;
+    font-size: 9.5vw;
+    width: 65vw;
+  }
+
+  .text p {
+    display: none;
+  }
 }
