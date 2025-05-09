@@ -41,9 +41,9 @@ h1 {
 
 h2 {
   position: absolute;
-  top: 24vh;
-  left: 12vw;
-  font-size: 20vw;
+  top: 20vh;
+  left: 15vw;
+  font-size: 19vw;
   color: white;
 }
 
@@ -72,16 +72,16 @@ header {
 
 .pikachu {
   position: absolute;
-  top: 30vh;
-  left: 33vw;
-  max-width: 30vw;
+  top: 20vh;
+  left: 30.5vw;
+  width: 38vw;
 }
 
 .text {
   width: 29vw;
   position: absolute;
-  bottom: 7vh;
-  left: 11vw;
+  bottom: 21vh;
+  left: 12vw;
   color: var(--secundary-color);
 }
 
@@ -95,10 +95,10 @@ header {
 
 .button {
   position: absolute;
-  bottom: 14vh;
+  bottom: 21vh;
   left: 67vw;
   display: flex;
-  width: 30vw;
+  width: 27vw;
   height: 10vh;
   background-color: var(--secundary-color);
   align-items: center;
@@ -178,5 +178,52 @@ footer {
   footer,
   .text p {
     display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    top: 3vh;
+  }
+  h2 {
+    top: 12vh;
+    left: 8vw;
+    font-size: 23vw;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .pikachu {
+    width: 569px;
+    top: 24vh;
+    left: 13.5vw;
+  }
+
+  .text {
+    width: 530px;
+    bottom: 14vh;
+    left: 20vw;
+  }
+
+  .text h3 {
+    font-size: 7vw;
+  }
+
+  .text p {
+    font-size: 2.4vw;
+    text-align: center;
+  }
+
+  .button {
+    bottom: 2vh;
+    left: 23vw;
+    width: 411px;
+    font-size: 5.5vw;
+  }
+
+  .button img {
+    height: 3vh;
   }
 }
